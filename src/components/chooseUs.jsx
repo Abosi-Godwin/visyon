@@ -21,7 +21,7 @@ const WhyChooseUs = () => {
                             Eye Care Solution Since 2007
                         </h2>
                         <img
-                            src="/doctor-old.jpg"
+                            src="/old doctor(2).jpg"
                             alt="Expert"
                             className="w-full h-80 object-cover"
                         />
@@ -50,25 +50,26 @@ const WhyChooseUs = () => {
                                 },
                                 { title: "Latest Technology", icon: MdBiotech }
                             ].map((item, i) => {
-                            const Icon = item.icon
-                            return (
-                                <div
-                                    key={i}
-                                    className="flex items-start space-x-4"
-                                >
-                                    <div className="bg-visyon-light p-3 text-2xl">
-                                        <Icon />
+                                const Icon = item.icon;
+                                return (
+                                    <div
+                                        key={i}
+                                        className="flex items-start space-x-4"
+                                    >
+                                        <div className="bg-visyon-light p-3 text-2xl">
+                                            <Icon />
+                                        </div>
+                                        <div>
+                                            <h4 className="font-bold text-visyon-dark">
+                                                {item.title}
+                                            </h4>
+                                            <p className="text-xs text-visyon-gray mt-1">
+                                                Lorem ipsum dolor sit amet.
+                                            </p>
+                                        </div>
                                     </div>
-                                    <div>
-                                        <h4 className="font-bold text-visyon-dark">
-                                            {item.title}
-                                        </h4>
-                                        <p className="text-xs text-visyon-gray mt-1">
-                                            Lorem ipsum dolor sit amet.
-                                        </p>
-                                    </div>
-                                </div>
-                            )})}
+                                );
+                            })}
                         </div>
                     </div>
                 </div>
@@ -116,7 +117,7 @@ const WhyChooseUs = () => {
 
                     <div className="h-[500px]">
                         <img
-                            src="/glasses-stack.jpg"
+                            src="/eyecare.jpg"
                             alt="Product variety"
                             className="w-full h-full object-cover"
                         />

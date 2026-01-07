@@ -1,6 +1,6 @@
 const Hero = () => {
     return (
-        <section className="bg-visyon-light overflow-hidden">
+        <section className="bg-visyon-light overflow-hidden h-dvh">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center min-h-[600px] py-12 lg:py-0">
                     {/* Text Content */}
@@ -20,10 +20,12 @@ const Hero = () => {
                     </div>
 
                     {/* Image Content */}
-                    <div className="relative order-1 lg:order-2 h-[300px] lg:h-full flex justify-end">
-                        {/* Replace with your local image path */}
+                    <div
+                        className="relative order-1 lg:order-2 h-[300px] pb-10
+                    lg:h-full flex justify-end "
+                    >
                         <img
-                            src="/heroMobile.jpeg"
+                            src="/hero1.jpg"
                             alt="Eye Specialist"
                             className="w-full h-full object-cover md:w-auto lg:object-right scale-125 lg:scale-110 origin-bottom lg:origin-right"
                         />

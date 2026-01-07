@@ -26,17 +26,17 @@ const ServicesSection = () => {
     const services = [
         {
             title: "Visual Acuity Test",
-            image: "/acuity-test.jpg",
+            image: "/okay(1).jpg",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis."
         },
         {
             title: "Eye Check Up",
-            image: "/eye-check.jpg",
+            image: "/okay(2).jpg",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis."
         },
         {
             title: "Lasik Eye Surgery",
-            image: "/lasik.jpg",
+            image: "/okay(3).jpg",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis."
         }
     ];

@@ -12,7 +12,7 @@ const BookingSection = () => {
       {/* Background Image Wrapper */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/appointment-bg.jpg" 
+          src="/old doctor(1).jpg" 
           alt="Client with glasses" 
           className="w-full h-full object-cover grayscale-[30%]"
         />
