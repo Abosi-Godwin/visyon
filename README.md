@@ -35,11 +35,13 @@ to:*
 **1. Clone the repository:**
 ```bash
 git clone https://github.com/Abosi-Godwin/health-app.git
+```
 
 **2. Install dependencies:**
 ```bash
 npm install
+```
 
-**2. Install dependencies:**
+**3. Install dependencies:**
 ```bash
-npm run Dev
+npm run dev
