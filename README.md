@@ -20,11 +20,11 @@ Icons: Lucide-React / Heroicons
 Deployment: Optimized for Vercel / Netlify
 
 #### ✨ Key Features
--Responsive Design: Fully optimized for mobile, tablet, and desktop views.
--Staggered Gallery: A custom CSS-grid based "About Us" section with overlapping imagery.
--Interactive UI: Hover effects on service cards and social icons for better engagement.
--Service Stats: Animated-style progress bars to highlight customer satisfaction and expertise.
--Booking Integration: A clean layout for operational hours and appointment scheduling.
+- Responsive Design: Fully optimized for mobile, tablet, and desktop views.
+- Staggered Gallery: A custom CSS-grid based "About Us" section with overlapping imagery.
+- Interactive UI: Hover effects on service cards and social icons for better engagement.
+- Service Stats: Animated-style progress bars to highlight customer satisfaction and expertise.
+- Booking Integration: A clean layout for operational hours and appointment scheduling.
 
 
 ## 📸 Project Preview
