@@ -36,3 +36,9 @@ to:*
 
 Install dependencies:
 ` npm Install
+
+#### 🛠️ Installation & Setup
+
+**1. Clone the repository:**
+```bash
+git clone [https://github.com/Abosi-Godwin/health-app.git](https://github.com/Abosi-Godwin/health-app.git)
