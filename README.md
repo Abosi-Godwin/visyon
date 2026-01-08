@@ -1,4 +1,4 @@
-##👁️ VISYON - Premium Eye Care Landing Page
+## 👁️ VISYON - Premium Eye Care Landing Page
 VISYON is a high-end, responsive landing page built for modern optometry clinics and eye care specialists. It combines clinical professionalism with a boutique aesthetic to provide a seamless user experience for patients seeking vision services and stylish eyewear.
 
 🎯 Purpose & Use Case
@@ -27,9 +27,9 @@ Service Stats: Animated-style progress bars to highlight customer satisfaction a
 Booking Integration: A clean layout for operational hours and appointment scheduling.
 
 
-##📸 Project Preview
+## 📸 Project Preview
 
-#🛠️ Installation & Setup
+# 🛠️ Installation & Setup
 Clone the repository:
 git clone https://github.com/Abosi-Godwin/health-app.git
 
