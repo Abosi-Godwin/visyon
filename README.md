@@ -29,16 +29,17 @@ to:*
 
 
 ## 📸 Project Preview
-
-#### 🛠️ Installation & Setup
-**Clone the repository:**
-(` git clone https://github.com/Abosi-Godwin/health-app.git)
-
-Install dependencies:
-` npm Install
-
+ 
 #### 🛠️ Installation & Setup
 
 **1. Clone the repository:**
 ```bash
-git clone [https://github.com/Abosi-Godwin/health-app.git](https://github.com/Abosi-Godwin/health-app.git)
+git clone https://github.com/Abosi-Godwin/health-app.git
+
+**2. Install dependencies:**
+```bash
+npm install
+
+**2. Install dependencies:**
+```bash
+npm run Dev
