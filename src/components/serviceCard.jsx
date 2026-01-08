@@ -51,8 +51,7 @@ const ServicesSection = () => {
                     What Can We Do
                 </h2>
                 <p className="text-visyon-gray">
-                    Maecenas magna lacus, dignissim sed erat et, malesuada
-                    hendrerit dolor. Nulla facilisi.
+                  From routine check-ups to advanced surgical consultations, our clinic offers a full spectrum of vision services.
                 </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10">

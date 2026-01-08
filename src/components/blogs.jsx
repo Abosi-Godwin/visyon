@@ -1,4 +1,4 @@
-const BlogCard = ({ date, month, title, image }) => (
+const BlogCard = ({ date, month, title, image, content }) => (
     <div className="flex flex-col group cursor-pointer">
         <div className="relative mb-6 overflow-hidden">
             <img
@@ -20,8 +20,7 @@ const BlogCard = ({ date, month, title, image }) => (
             {title}
         </h3>
         <p className="text-visyon-gray text-sm leading-relaxed mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu
-            efficitur felis...
+            {content}
         </p>
         <a
             href="#"
@@ -38,18 +37,24 @@ const BlogSection = () => {
             date: "13",
             month: "Jul",
             title: "Never Miss The Best Things",
+            content:
+                "Why annual eye exams are the secret to maintaining                long-term cognitive health...",
             image: "/okay(4).jpg"
         },
         {
             date: "13",
             month: "Jul",
             title: "Your Face Is Your Art",
+            content:
+                "Why annual eye exams are the secret to maintaining long-term                cognitive health...",
             image: "/okay(5).jpg"
         },
         {
             date: "13",
             month: "Jul",
             title: "Style Is What You Wear",
+            content:
+                "Why annual eye exams are the secret to maintaining                long-term cognitive health...",
             image: "/okay(6).jpg"
         }
     ];

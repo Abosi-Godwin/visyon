@@ -18,12 +18,13 @@ const Footer = () => {
                             👁️ VISYON
                         </span>
                         <p className="text-visyon-gray text-sm leading-relaxed">
-                            Proin vitae arcu elementum, condimentum elit in.
-                            Aenean eu magna a orci ullamcorper.
+                            At Visyon, we combine decades of clinical expertise
+                            with a passion for modern eyewear. Our mission is to
+                            provide personalized eye care solutions that help
+                            you see clearly and live stylishly.
                         </p>
                     </div>
 
-                    {/* About Column */}
                     <div>
                         <h4 className="font-bold text-visyon-dark mb-6">
                             About Us
@@ -48,7 +49,6 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* Service Column */}
                     <div>
                         <h4 className="font-bold text-visyon-dark mb-6">
                             Service

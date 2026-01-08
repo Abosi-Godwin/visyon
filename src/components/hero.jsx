@@ -10,9 +10,7 @@ const Hero = () => {
                             Can Inspire You
                         </h1>
                         <p className="text-visyon-gray max-w-md mx-auto lg:mx-0 mb-8 leading-relaxed">
-                            Phasellus rhoncus sodales dui. Nulla ex odio,
-                            consequat ac mi vitae, faucibus consectetur libero.
-                            Fusce vel fringilla justo.
+                        Premium eye care tailored to your lifestyle. We combine clinical excellence with a passion for style to help you see the world clearly and beautifully.
                         </p>
                         <button className="bg-visyon-gold text-white px-8 py-3 font-semibold hover:bg-opacity-90 transition">
                             Get Started

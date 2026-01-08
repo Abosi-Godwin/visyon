@@ -5,12 +5,29 @@ import {
     FaShield
 } from "react-icons/fa6";
 import { GiEyeShield } from "react-icons/gi";
+
 const ServiceBar = () => {
     const services = [
-        { title: "Prescription Glasses", icon: FaGlasses },
-        { title: "Contact Lens", icon: FaEye },
-        { title: "Eye Care", icon: GiEyeShield },
-        { title: "Vision Check", icon: FaHeartCircleCheck }
+        {
+            title: "Prescription Glasses",
+            desc: "Comprehensive exams using state-of-the-art technology for a precise look at your optical health.",
+            icon: FaGlasses
+        },
+        {
+            title: "Contact Lens",
+            desc: "Experience comfort and clarity with our wide range of daily and monthly contact lens options.",
+            icon: FaEye
+        },
+        {
+            title: "Eye Care",
+            desc: "Advanced medical screenings to ensure your eyes stay healthy and vibrant for years to come.",
+            icon: GiEyeShield
+        },
+        {
+            title: "Vision Check",
+            desc: "Comprehensive exams using  state-of-the-art technology for a precise look at your optical health.",
+            icon: FaHeartCircleCheck
+        }
     ];
 
     return (
@@ -32,8 +49,7 @@ const ServiceBar = () => {
                                 {item.title}
                             </h3>
                             <p className="text-visyon-gray text-sm px-4">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing.
+                                {item.desc}
                             </p>
                         </div>
                     );

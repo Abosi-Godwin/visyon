@@ -32,9 +32,7 @@ const AboutSection = () => {
                         Style Yourself With The Best Lens
                     </h2>
                     <p className="text-visyon-gray leading-relaxed">
-                        Etiam interdum consequat risus, a pellentesque quam
-                        eleifend finibus. Nunc sed mi metus. Maecenas consequat,
-                        tortor et eleifend iaculis, nisi orci interdum libero.
+                      We believe that eyewear is more than just a medical necessity—it’s an expression of your personality. Our specialists work with you to find the perfect balance between optical precision and aesthetic flair, ensuring you look as good as you see.
                     </p>
                     <button className="bg-visyon-gold text-white px-8 py-3 font-semibold hover:bg-opacity-90 transition shadow-md">
                         Learn More

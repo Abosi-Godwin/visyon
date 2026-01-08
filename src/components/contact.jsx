@@ -21,8 +21,7 @@ const ContactSection = () => {
                         Get In Touch With Us
                     </h2>
                     <p className="text-visyon-gray mb-8">
-                        Proin ac dolor eget nisl auctor volutpat. Donec a
-                        ullamcorper ligula.
+                       Have a question about your prescription or want to check our frame inventory? Drop us a message and our team will get back to you within 24 hours.
                     </p>
                     <form className="space-y-4">
                         <input

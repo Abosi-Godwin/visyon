@@ -29,26 +29,34 @@ const WhyChooseUs = () => {
 
                     <div className="flex flex-col justify-between pt-8 lg:pt-20">
                         <p className="text-visyon-gray mb-10 leading-loose">
-                            Phasellus rhoncus sodales dui. Nulla ex odio,
-                            consequat ac mi vitae, faucibus consectetur libero.
-                            Fusce vel fringilla justo.
+                            With nearly two decades of clinical experience,
+                            we’ve refined the art of the eye exam. We use
+                            high-resolution imaging and a patient-first approach
+                            to ensure your comfort at every step.
                         </p>
                         {/* 2x2 Feature Grid */}
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
                             {[
                                 {
                                     title: "Experienced Doctor",
-                                    icon: FaUserDoctor
+                                    icon: FaUserDoctor,
+                                    desc: "Board-certified optometrists with a focus on patient education."
                                 },
                                 {
                                     title: "High Quality Frame",
-                                    icon: FaToolbox
+                                    icon: FaToolbox,
+                                    desc: "A curated collection of designer and independent labels."
                                 },
                                 {
                                     title: "Affordable Price",
-                                    icon: FaSackDollar
+                                    icon: FaSackDollar,
+                                    desc: "Transparent pricing with flexible insurance coordination."
                                 },
-                                { title: "Latest Technology", icon: MdBiotech }
+                                {
+                                    title: "Latest Technology",
+                                    icon: MdBiotech,
+                                    desc: "State-of-the-art diagnostic equipment for  100% accuracy."
+                                }
                             ].map((item, i) => {
                                 const Icon = item.icon;
                                 return (
@@ -64,7 +72,7 @@ const WhyChooseUs = () => {
                                                 {item.title}
                                             </h4>
                                             <p className="text-xs text-visyon-gray mt-1">
-                                                Lorem ipsum dolor sit amet.
+                                                {item.desc}
                                             </p>
                                         </div>
                                     </div>
